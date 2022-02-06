@@ -3,7 +3,6 @@ import pyrebase
 import streamlit as st
 from datetime import datetime
 
-
 firebaseConfig = {
   'apiKey': "AIzaSyCI4ktQtd__neMDF8TmTh6-6fLebaKvpGc",
   'authDomain': "connectdbtopython.firebaseapp.com",
@@ -16,7 +15,6 @@ firebaseConfig = {
 }
 
 #Initialize application
-
 
 firebase = pyrebase.initialize_app(firebaseConfig)
 auth = firebase.auth()
